@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="all.js"></script>
+    <title>房租預算健檢</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="colZone">
+                <div class="logo"><img src="home.png" alt=""></div>
+                <div class="calData">
+                    <label for="height">每月實際收入</label>
+                    <input type="number" id="height" placeholder="請輸入扣除勞健保及稅之實收" required>
+                    <label for="weight" style="margin-top:23px;">房租預計</label>
+                    <input type="number" id="weight" placeholder="若有管理費請加上管理費" required>
+                </div>
+                <div class="calStart">
+                    <div class="calContent">
+                        <div class="calBtn">
+                            <div class="btnText">看結果</div>
+                            <div class="bmiLabel">占比</div>
+                            <div class="recalIcon"><img src="refresh.png"></div>
+                        </div>
+                        <div class="levelLabel">肥胖</div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        <section>
+            <div class="resultTitle">房租健檢紀錄</div>
+            <div class="resultButtons"><button class="deletAllResult">刪除全部紀錄</button></div>
+            
+            <div class="resultList">
+                <!-- <div class="resultItem">
+                    <div class="status light"></div>
+                    <div class="levelLabel">理想</div>
+                    <div class="bmiScore">
+                        <span class="label">占比</span>
+                        <span class="number">20.90</span>
+                    </div>
+                    <div class="recordWeight">
+                        <span class="label">weight</span>
+                        <span class="number">70kg</span>
+                    </div>
+                    <div class="recordHeight">
+                        <span class="label">height</span>
+                        <span class="number">180cm</span>
+                    </div>
+                    <div class="recordDate">
+                        <span class="label">06-19-2017</span>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <footer>
+            <div class="footerLogo">
+                <img src="images/BmiLogo-b.png" alt="">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
